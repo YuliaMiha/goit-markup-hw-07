@@ -1,0 +1,139 @@
+.site-nav__iter .site-nav__link {
+    display: block;
+    text-decoration: none;
+    color: var(--title-text-color);
+    position: relative;
+    transition: color 250ms var(--timing-function);
+
+}
+
+.site-nav__iter .site-nav__link::after,
+.site-nav__iter .site-nav__link--current::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: -1px;
+
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+    transition: width 250ms var(--timing-function);
+    width: 0;
+}
+
+.site-nav__iter .site-nav__link::after {
+    width: 0;
+}
+
+.site-nav__iter .site-nav__link:hover::after,
+.site-nav__iter .site-nav__link:focus::after,
+.site-nav__iter .site-nav__link--current::after {
+    width: 100%;
+}
+
+ .site-nav {
+     display: flex;
+     align-items: center;
+ }
+
+ .site-nav__list {
+     display: flex;
+     margin-left: 70px;
+ }
+
+
+ .site-nav__iter+.site-nav__iter {
+     margin-left: 50px;
+ }
+
+
+
+ .site-nav__iter,
+ .auth-nav__iter {
+     display: block;
+ }
+
+ .site-nav__link {
+     color: var(--title-text-color);
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: .02em;
+     text-decoration: none;
+     display: inline-block;
+     padding: 32px 0;
+     transition: color 250ms var(--timing-function);
+
+ }
+
+ .site-nav__link:hover,
+ .site-nav__link:focus {
+     color: var(--accent-color);
+ }
+
+ .site-nav__link--current {
+     color: var(--accent-color);
+
+ }
+
+ .auth-nav__tel {
+     color: var(--primary-text-color);
+     font-weight: 500;
+     letter-spacing: .02em;
+     font-size: 14px;
+     line-height: 1.14;
+     text-decoration: none;
+     transition: color 250ms var(--timing-function);
+ }
+
+ .auth-nav__mail {
+     color: var(--primary-text-color);
+     font-weight: 500;
+     letter-spacing: .02em;
+     font-size: 14px;
+     line-height: 1.14;
+     text-decoration: none;
+     transition: color 250ms var(--timing-function);
+ }
+
+ .auth-nav__tel:hover,
+ .auth-nav__tel:focus {
+     color: var(--accent-color);
+ }
+
+ .auth-nav__mail:hover,
+ .auth-nav__mail:focus {
+     color: var(--accent-color);
+ }
+
+ .auth-nav__list {
+     display: flex;
+     margin-left: auto;
+ }
+
+ .auth-nav__iter+.auth-nav__iter {
+     margin-left: 50px;
+ }
+
+
+ .auth-nav__mail,
+ .auth-nav__tel {
+     color: var(--primary-text-color);
+     font-weight: 500;
+     letter-spacing: 0.02em;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+ }
+
+
+ .auth-nav__icon {
+     margin-right: 10px;
+     fill: currentColor;
+ }
+
+ .auth-nav__phone {
+     margin-right: 10px;
+     fill: currentColor;
+ }
