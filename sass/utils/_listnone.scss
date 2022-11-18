@@ -1,11 +1,11 @@
-.list-none {
-    list-style: none;
+%list-none {
+  list-style: none;
 }
 
-.link-none {
-    text-decoration: none;
+%link-none {
+  text-decoration: none;
 }
 li {
-    list-style-type: none;
-    /* забираєм маркери */
+  list-style-type: none;
+  /* забираєм маркери */
 }

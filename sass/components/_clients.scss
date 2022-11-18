@@ -1,16 +1,17 @@
 .customers {
     padding: 94px 0;
-}
 
-.customers__title {
-    font-family: $font-roboto;
-    text-align: center;
-    color: $title-text-color;
-    font-weight: 700;
-    letter-spacing: .03em;
-    font-size: 36px;
-    line-height: 1.16;
-    padding-bottom: 50px;
+
+          &__title {
+          font-family: $font-roboto;
+          text-align: center;
+          color: $title-text-color;
+          font-weight: 700;
+          letter-spacing: .03em;
+          font-size: 36px;
+          line-height: 1.16;
+          padding-bottom: 50px;
+}
 }
 
 .clients {
@@ -29,27 +30,24 @@
     justify-content: center;
     border: 1px solid $icon-color;
     border-radius: 4px;
-
-}
-
-.clients__link {
     display: flex;
     color: inherit;
     text-decoration: none;
+
+
+         .clients__icon {
+         fill: $icon-color;
+         padding: 7px;
+         transition: fill 250ms $timing-function;
 }
 
-.clients__icon {
-    fill: $icon-color;
-    padding: 7px;
-    transition: fill 250ms $timing-function;
+          &:hover,
+          &:focus {
+          border-color: $accent-color;
 }
 
-.clients__link:hover,
-.clients__link:focus {
-    border-color: $accent-color;
+          &:hover .clients__icon,
+          &:focus .clients__icon {
+          fill: $accent-color;
 }
-
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
-    fill: $accent-color;
 }
