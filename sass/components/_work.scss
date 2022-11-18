@@ -3,7 +3,7 @@
 }
 
 .feature__title {
-    color: var(--title-text-color);
+    color: $title-text-color;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -45,7 +45,7 @@
     width: 100%;
     padding: 27px 10px;
 
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     font-weight: 700;
     text-align: center;
     line-height: 1.1428;

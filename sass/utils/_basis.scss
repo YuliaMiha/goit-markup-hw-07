@@ -3,7 +3,7 @@
 }
 
 .section__title {
-    color: $title-color;
+    color: $title-text-color;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -15,4 +15,8 @@ img {
     display: block;
     height: auto;
     max-width: 100%;
+}
+li {
+    list-style-type: none;
+    /* забираєм маркери */
 }

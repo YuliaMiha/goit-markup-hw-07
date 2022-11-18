@@ -1,6 +1,6 @@
 .hero {
-    background-color: var(--footer-color);
-    background: linear-gradient(var(--color-gradient), var(--color-gradient)), url(../images/iconimag/backgroundhero.jpg);
+    background-color: $footer-color;
+    background: linear-gradient($color-gradient, $color-gradient), url(../images/iconimag/backgroundhero.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +13,7 @@
 }
 
 .hero__title {
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -28,8 +28,8 @@
 }
 
 .hero__button {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
+    color: $primary-white-color;
+    background-color: $accent-color;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;

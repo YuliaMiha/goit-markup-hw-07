@@ -10,12 +10,13 @@
 
 .header-logo {
     display: flex;
-           
-    $__logo {
+}
+
+.header-logo__logo {
     margin-right: 92px;
 }
 
-$__logo {
+.header-logo__logo {
     color: $black-color;
     font-family: $font-raleway;
     font-weight: 700;
@@ -25,7 +26,6 @@ $__logo {
     margin: auto;
 }
 
-$__colorlogo {
+.header-logo__colorlogo {
     color: $accent-color;
-}
 }

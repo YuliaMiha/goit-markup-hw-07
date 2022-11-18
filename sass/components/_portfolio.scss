@@ -1,6 +1,5 @@
 .main {
     padding: 94px 0 94px 0;
-    background-color: var(--primary-background-color);
 }
 
 
@@ -9,8 +8,8 @@
 }
 
 .filter-list__button {
-    color: var(--title-text-color);
-    background-color: var(--secondary-background-color);
+    color: $title-text-color;
+    background-color: $secondary-background-color;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -26,9 +25,9 @@
 
 .filter-list__button:hover,
 .filter-list__button:focus {
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     cursor: pointer;
 }
 
@@ -44,12 +43,8 @@
     margin-bottom: 50px;
 }
 
-/* .filter-title .portfoliobut{
-  margin-right: 8px;
-} */
-
 .potfolio-card__examples {
-    color: var(--title-text-color);
+    color: $title-text-color;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -57,7 +52,7 @@
 }
 
 .potfolio-card__hidden {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: .03em;
@@ -65,7 +60,7 @@
 
 .portfolio-card .potfolio-card__hidden:hover,
 .portfolio-card .potfolio-card__hidden:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .portfolio-card .portfolio-card__form {
@@ -83,7 +78,6 @@
 .portfolio-card__description {
     width: 370px;
     padding: 20px 24px;
-    /* background-color: tomato; */
 
 }
 
@@ -96,7 +90,7 @@
 }
 
 .portfolio-card__description {
-    border: 1px solid var(--port-border-color);
+    border: 1px solid $port-border-color;
 
 }
 
@@ -105,7 +99,7 @@
 }
 
 .portfolio-card__works {
-    background: var(--primary-white-color);
+    background: $primary-white-color;
 }
 
 .portfolio-card__works:hover,
@@ -133,15 +127,15 @@
     width: 100%;
     /* height: 100%; */
     padding: 63px 24px;
-    background-color: var(--card-background);
+    background-color: $card-background;
     overflow: auto;
-    color: var(--primary-white-color);
-    font-family: var(--font-roboto);
+    color: $primary-white-color;
+    font-family: $font-roboto;
     font-size: 18px;
     line-height: 1.56;
 
     transform: translateY(100%);
-    transition: transform 250ms var(--timing-function);
+    transition: transform 250ms $timing-function;
 }
 
 .portfolio-card__works a:hover .potfolio-card__text {
