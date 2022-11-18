@@ -769,16 +769,21 @@ li {
 .feature {
   padding-bottom: 94px;
 }
-.feature__title {
+
+.feature .feature__title--centered {
   color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .work-list {
   margin: 0;
+  /* display: flex;
+    margin: 0 auto;
+    padding: 0 15px; */
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -786,17 +791,24 @@ li {
      -moz-column-gap: 30px;
           column-gap: 30px;
 }
+
+/* .feat .featli{
+    margin-right: 30px;
+} */
 .work-list__item:last-child {
   margin-right: 0;
 }
+
 .work-list__featimg {
   display: block;
 }
+
 .work-list__item {
   position: relative;
   width: 370px;
   overflow: hidden;
 }
+
 .work-list__hidden {
   position: absolute;
   bottom: 0;
