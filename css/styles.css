@@ -195,7 +195,7 @@ li{
     color: var(--accent-color);
 }
 
-.site-nav__link--current{
+.site-nav__iter .site-nav__link--current{
     color: var(--accent-color);
 
 }
